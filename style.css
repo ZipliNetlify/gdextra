@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #000000, #00320f);
+    color: #00ff31; 
+    font-family: sans-serif; 
+ }
