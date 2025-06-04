@@ -10,3 +10,9 @@ body {
     color: #00ff31; 
     font-family: sans-serif; 
  }
+
+hr {
+    background-color: #00ff31; 
+    height: 5px;
+    border: none;
+}
