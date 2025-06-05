@@ -1,5 +1,94 @@
-<title>C0M.it - Home Page</title>
-<link rel="stylesheet" href="/style.css">
-<div style="text-align: center">
-  <img src="/c0mit.svg">
-</div>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://gdextra1.netlify.app/style.css">
+    <title>C0M.it - Home Page</title>
+    <style>
+        /* Scaled up styling */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3em;
+            text-align: center;
+        }
+
+        img {
+            margin-bottom: 1.5em;
+        }
+
+        input[type="text"] {
+            font-family: 'Pixelify Sans', sans-serif;
+            padding: 1em;
+            width: 70%;
+            max-width: 400px;
+            border: 3px solid #00ff31;
+            background-color: #000;
+            color: #00ff31;
+            margin-top: 1.5em;
+        }
+
+        button {
+            font-family: 'Pixelify Sans', sans-serif;
+            margin-left: 15px;
+            padding: 1em 2em;
+            font-size: 1.3em;
+            border: 3px solid #00ff31;
+            background-color: transparent;
+            color: #00ff31;
+            cursor: pointer;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #00ff31;
+            color: #000;
+        }
+
+        code {
+            background: rgba(0, 255, 49, 0.1);
+            padding: 4px 6px;
+            border-radius: 4px;
+            font-size: 1.1em;
+        }
+
+        .note {
+            margin-top: 3em;
+            color: #00ff31;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+        }
+
+        h3 {
+            font-size: 2em;
+            margin: 0.5em 0;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://gdextra1.netlify.app/c0mit.svg" width="30%" alt="c0m.it Logo">
+
+        <h1>Welcome to the <code>c0m.it</code> website!</h1>
+        <hr>
+
+        <h3>Get a domain like <code>c0m.it</code> today!</h3>
+        <p>Simply enter your domain name below and click "Check Availability".</p>
+
+        <div>
+            <input type="text" id="domainInput" placeholder="yourname.c0m.it">
+            <button onclick="window.location.href = 'https://xdgd.paes.dev'">Check</button>
+        </div>
+
+        <div class="note">
+            <p><code>We are not affiliated or related to Italy in any way, shape, or form — even though the TLD of our <strong>SLD</strong> belongs to Italy.</code></p>
+        </div>
+    </div>
+
+
+</body></html>
